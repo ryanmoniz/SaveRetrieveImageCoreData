@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "321F7D471D5BCDAB008C00A0"
+               BuildableName = "SaveRetrieveImageCoreData.app"
+               BlueprintName = "SaveRetrieveImageCoreData"
+               ReferencedContainer = "container:SaveRetrieveImageCoreData.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "321F7D5E1D5BCDAB008C00A0"
+               BuildableName = "SaveRetrieveImageCoreDataTests.xctest"
+               BlueprintName = "SaveRetrieveImageCoreDataTests"
+               ReferencedContainer = "container:SaveRetrieveImageCoreData.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "321F7D691D5BCDAB008C00A0"
+               BuildableName = "SaveRetrieveImageCoreDataUITests.xctest"
+               BlueprintName = "SaveRetrieveImageCoreDataUITests"
+               ReferencedContainer = "container:SaveRetrieveImageCoreData.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "321F7D471D5BCDAB008C00A0"
+            BuildableName = "SaveRetrieveImageCoreData.app"
+            BlueprintName = "SaveRetrieveImageCoreData"
+            ReferencedContainer = "container:SaveRetrieveImageCoreData.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "321F7D471D5BCDAB008C00A0"
+            BuildableName = "SaveRetrieveImageCoreData.app"
+            BlueprintName = "SaveRetrieveImageCoreData"
+            ReferencedContainer = "container:SaveRetrieveImageCoreData.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "321F7D471D5BCDAB008C00A0"
+            BuildableName = "SaveRetrieveImageCoreData.app"
+            BlueprintName = "SaveRetrieveImageCoreData"
+            ReferencedContainer = "container:SaveRetrieveImageCoreData.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -15,6 +15,10 @@
 		321F7D591D5BCDAB008C00A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321F7D571D5BCDAB008C00A0 /* LaunchScreen.storyboard */; };
 		321F7D641D5BCDAB008C00A0 /* SaveRetrieveImageCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321F7D631D5BCDAB008C00A0 /* SaveRetrieveImageCoreDataTests.swift */; };
 		321F7D6F1D5BCDAB008C00A0 /* SaveRetrieveImageCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321F7D6E1D5BCDAB008C00A0 /* SaveRetrieveImageCoreDataUITests.swift */; };
+		321F7D7E1D5BCF27008C00A0 /* Multimedia+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321F7D7C1D5BCF27008C00A0 /* Multimedia+CoreDataProperties.swift */; };
+		321F7D7F1D5BCF27008C00A0 /* Multimedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321F7D7D1D5BCF27008C00A0 /* Multimedia.swift */; };
+		329889C21D5CF53B0040593F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329889C11D5CF53B0040593F /* NetworkController.swift */; };
+		329889C41D5CF6FA0040593F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329889C31D5CF6FA0040593F /* Download.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		321F7D6A1D5BCDAB008C00A0 /* SaveRetrieveImageCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaveRetrieveImageCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		321F7D6E1D5BCDAB008C00A0 /* SaveRetrieveImageCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveRetrieveImageCoreDataUITests.swift; sourceTree = "<group>"; };
 		321F7D701D5BCDAC008C00A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321F7D7C1D5BCF27008C00A0 /* Multimedia+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Multimedia+CoreDataProperties.swift"; path = "SaveRetrieveImageCoreData/Multimedia+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		321F7D7D1D5BCF27008C00A0 /* Multimedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Multimedia.swift; path = SaveRetrieveImageCoreData/Multimedia.swift; sourceTree = "<group>"; };
+		329889C11D5CF53B0040593F /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		329889C31D5CF6FA0040593F /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		321F7D3F1D5BCDAB008C00A0 = {
 			isa = PBXGroup;
 			children = (
+				321F7D801D5BCF2D008C00A0 /* Model */,
 				321F7D4A1D5BCDAB008C00A0 /* SaveRetrieveImageCoreData */,
 				321F7D621D5BCDAB008C00A0 /* SaveRetrieveImageCoreDataTests */,
 				321F7D6D1D5BCDAB008C00A0 /* SaveRetrieveImageCoreDataUITests */,
@@ -101,6 +110,8 @@
 			children = (
 				321F7D4B1D5BCDAB008C00A0 /* AppDelegate.swift */,
 				321F7D4D1D5BCDAB008C00A0 /* ViewController.swift */,
+				329889C11D5CF53B0040593F /* NetworkController.swift */,
+				329889C31D5CF6FA0040593F /* Download.swift */,
 				321F7D4F1D5BCDAB008C00A0 /* Main.storyboard */,
 				321F7D551D5BCDAB008C00A0 /* Assets.xcassets */,
 				321F7D571D5BCDAB008C00A0 /* LaunchScreen.storyboard */,
@@ -126,6 +137,15 @@
 				321F7D701D5BCDAC008C00A0 /* Info.plist */,
 			);
 			path = SaveRetrieveImageCoreDataUITests;
+			sourceTree = "<group>";
+		};
+		321F7D801D5BCF2D008C00A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				321F7D7C1D5BCF27008C00A0 /* Multimedia+CoreDataProperties.swift */,
+				321F7D7D1D5BCF27008C00A0 /* Multimedia.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +216,7 @@
 				TargetAttributes = {
 					321F7D471D5BCDAB008C00A0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PP64RT7P8Z;
 					};
 					321F7D5E1D5BCDAB008C00A0 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -259,8 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321F7D7F1D5BCF27008C00A0 /* Multimedia.swift in Sources */,
+				321F7D7E1D5BCF27008C00A0 /* Multimedia+CoreDataProperties.swift in Sources */,
+				329889C21D5CF53B0040593F /* NetworkController.swift in Sources */,
 				321F7D4E1D5BCDAB008C00A0 /* ViewController.swift in Sources */,
 				321F7D541D5BCDAB008C00A0 /* SaveRetrieveImageCoreData.xcdatamodeld in Sources */,
+				329889C41D5CF6FA0040593F /* Download.swift in Sources */,
 				321F7D4C1D5BCDAB008C00A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SaveRetrieveImageCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.travel.SaveRetrieveImageCoreData;
@@ -416,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SaveRetrieveImageCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.travel.SaveRetrieveImageCoreData;
@@ -488,6 +515,7 @@
 				321F7D751D5BCDAC008C00A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		321F7D761D5BCDAC008C00A0 /* Build configuration list for PBXNativeTarget "SaveRetrieveImageCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +524,7 @@
 				321F7D781D5BCDAC008C00A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		321F7D791D5BCDAC008C00A0 /* Build configuration list for PBXNativeTarget "SaveRetrieveImageCoreDataUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +533,7 @@
 				321F7D7B1D5BCDAC008C00A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
